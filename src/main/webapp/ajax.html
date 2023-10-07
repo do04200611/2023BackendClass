@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//ajax
+		function sendData() {
+		 var xhr = new XMLHttpRequest();
+		 
+		 // 아래도 가능하고, 여기도 가능함
+		 xhr.open("POST", "mytext.txt",true);
+			xhr.send();
+		 
+		 xhr.onreadystatechange = function() {
+			if(this.readyState == 4 && this.status == 200){
+			//잘 받아진 것
+			document.getElementById("mydiv").innerHTML = this.responseText;
+			/* mydiv = document.getElementById("mydiv"); */
+			/* var text = xhr.responseText; */
+				}
+			};
+			//요청은 이 파일에서
+			/* xhr.open("POST", "mytext.txt",true);
+			xhr.send(); */
+		}
+	</script>
+	
+	<button onclick="sendData()" value="XmlHttpRequest Send">클릭하세요</button>
+	<div id="mydiv"></div>
+</body>
+</html>
