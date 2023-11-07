@@ -4,6 +4,3 @@
 
 ![スクリーンショット 2023-11-08 072731](https://github.com/do04200611/2023BackendClass/assets/74278578/9efd9856-df3b-4837-9118-b5c86fdc29e3)
 ![スクリーンショット 2023-11-08 072740](https://github.com/do04200611/2023BackendClass/assets/74278578/85f42402-34c3-40a9-ba0b-008a84872985)
-
-![スクリーンショット 2023-11-08 072731]![Uploading スクリーンショット 2023-11-08 072740.png…]()
-(https://github.com/do04200611/2023BackendClass/assets/74278578/0f41dbe6-1005-431c-b660-c6eeeffdac0b)
